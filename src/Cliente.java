@@ -16,7 +16,7 @@ public class Cliente {
         System.out.println("Cliente cadastrado é: " + nome + " o seu e-mail para contato é: " + email + " e seu ano de nascimento é: " + nasc_ano + " então sua idade aproximada é: " + calcularIdade());
     }
     public int calcularIdade(){
-        int ano_atual = Year.now().getValue();;
+        int ano_atual = Year.now().getValue();
         return ano_atual - this.nasc_ano;
 
     }

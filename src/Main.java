@@ -12,7 +12,5 @@ public class Main {
         Cliente n1 = new Cliente("estermadureira@gmail.com", "Ester", 2003);
         n1.registrarCliente();
 
-        n1.calcularIdade();
-
     }
 }
